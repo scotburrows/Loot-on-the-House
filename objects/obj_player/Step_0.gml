@@ -3,7 +3,7 @@
 //if (keyboard_key_press(ord("W")) or keyboard_key_press(ord("A")) or keyboard_key_press(ord("S")) or keyboard_key_press(ord("D"))) {
 //	direction_priority = true;
 //}
-show_debug_message(string(direction_priority));
+//show_debug_message(string(direction_priority));
 
 // Reset if nothing is pressed
 if ((keyboard_check(ord("W")) or keyboard_check(ord("A")) or keyboard_check(ord("S")) or keyboard_check(ord("D"))) == false) {
