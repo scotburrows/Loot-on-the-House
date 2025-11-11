@@ -3,7 +3,7 @@
 var xdiff = 0;
 var ydiff = 0;
 if (obj_player.sprite_index = spr_player_side_temp) {
-	if (obj_player.image_xscale > 0) {
+	if (obj_player.image_xscale < 0) {
 		xdiff = -32;
 	}
 	else {

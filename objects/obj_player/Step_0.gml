@@ -18,6 +18,20 @@ else if ((keyboard_check(ord("A")) or keyboard_check(ord("D"))) == false) {
 	hspeed = 0;
 }
 
+// Sprite movement
+if (vspeed = 0 and hspeed = 0) {
+	image_speed = 0;
+	if (image_index > 2) {
+		image_index = 0;
+	}
+	else if (image_index > 0) {
+		image_index = 2;
+	}
+}
+else {
+	image_speed = 1;
+}
+
 // Keep staying in one direction
 if (keyboard_check_released(ord("W"))) {
 	array_delete(direction_priority, array_get_index(direction_priority, dir.up), 1);
@@ -32,13 +46,13 @@ if (keyboard_check_released(ord("D"))) {
 	array_delete(direction_priority, array_get_index(direction_priority, dir.right), 1);
 }
 
-if (array_length(direction_priority) > 0 and direction_priority[0] == dir.left) {
+if (array_length(direction_priority) > 0 and direction_priority[0] == dir.right) {
 	image_xscale = -abs(image_xscale);
-	sprite_index = spr_player_side_temp;
+	sprite_index = spr_player_side;
 }
 else if (array_length(direction_priority) > 0) {
 	image_xscale = abs(image_xscale);
-	if (direction_priority[0] == dir.right) sprite_index = spr_player_side_temp;
-	if (direction_priority[0] == dir.up) sprite_index = spr_player_up_temp;
-	if (direction_priority[0] == dir.down) sprite_index = spr_player_down_temp;
+	if (direction_priority[0] == dir.left) sprite_index = spr_player_side;
+	if (direction_priority[0] == dir.up) sprite_index = spr_player_up;
+	if (direction_priority[0] == dir.down) sprite_index = spr_player_down;
 }
