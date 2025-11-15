@@ -36,6 +36,7 @@
   "resources":[
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_tile_interactable","path":"objects/obj_tile_interactable/obj_tile_interactable.yy",},},
+    {"id":{"name":"obj_tile_roomswitch","path":"objects/obj_tile_roomswitch/obj_tile_roomswitch.yy",},},
     {"id":{"name":"obj_tile","path":"objects/obj_tile/obj_tile.yy",},},
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"id":{"name":"spr_player_down_temp","path":"sprites/spr_player_down_temp/spr_player_down_temp.yy",},},
@@ -45,6 +46,7 @@
     {"id":{"name":"spr_player_up_temp","path":"sprites/spr_player_up_temp/spr_player_up_temp.yy",},},
     {"id":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},},
     {"id":{"name":"spr_tile_interact","path":"sprites/spr_tile_interact/spr_tile_interact.yy",},},
+    {"id":{"name":"spr_tile_room","path":"sprites/spr_tile_room/spr_tile_room.yy",},},
     {"id":{"name":"spr_tile","path":"sprites/spr_tile/spr_tile.yy",},},
   ],
   "resourceType":"GMProject",
