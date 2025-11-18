@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_roomswitch",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_roomborder",
+  "eventList":[],
   "managed":true,
-  "name":"obj_roomswitch",
+  "name":"obj_roomborder",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Tiles",
+    "path":"folders/Objects/Utility/Tiles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -35,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tile_room",
-    "path":"sprites/spr_tile_room/spr_tile_room.yy",
+    "name":"spr_tile_room2",
+    "path":"sprites/spr_tile_room2/spr_tile_room2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -8,8 +8,8 @@
   "name":"obj_tile_roomswitch",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Tiles",
+    "path":"folders/Objects/Utility/Tiles.yy",
   },
   "parentObjectId":{
     "name":"obj_tile_interactable",

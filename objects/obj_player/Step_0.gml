@@ -56,3 +56,14 @@ else if (array_length(direction_priority) > 0) {
 	if (direction_priority[0] == dir.up) sprite_index = spr_player_up;
 	if (direction_priority[0] == dir.down) sprite_index = spr_player_down;
 }
+
+/*if (!instance_place(x, y, obj_roomborder)) {
+	global.switching_room = false;
+}*/
+
+if (global.switching_room) {
+	overlay_alpha += 0.01;
+}
+else {
+	overlay_alpha -= 0.01;
+}
