@@ -6,3 +6,5 @@ enum dir {
 direction_priority = [];
 
 global.room_entrance = 0;
+flashlight = false;
+has_flashlight = false;
