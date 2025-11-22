@@ -12,3 +12,5 @@ has_flashlight = false;
 global.switching_room = false;
 overlay_alpha = 0;
 can_move = true;
+next_room = rm_test;
+global.paused = false;

@@ -64,6 +64,12 @@ else if (array_length(direction_priority) > 0) {
 if (global.switching_room) {
 	overlay_alpha += 0.01;
 	can_move = false;
+	if (overlay_alpha >= 1 and next_room != rm_test) {
+		room_goto(next_room);
+		next_room = rm_test;
+		global.switching_room = false;
+		can_move = true;
+	}
 }
 else {
 	overlay_alpha -= 0.01;
