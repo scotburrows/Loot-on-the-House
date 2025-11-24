@@ -37,6 +37,9 @@
     {"$GMObjectProperty":"v1","%Name":"line3","filters":[],"listItems":[],"multiselect":false,"name":"line3","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Line 3","varType":2,},
     {"$GMObjectProperty":"v1","%Name":"line4","filters":[],"listItems":[],"multiselect":false,"name":"line4","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Line 4","varType":2,},
     {"$GMObjectProperty":"v1","%Name":"line5","filters":[],"listItems":[],"multiselect":false,"name":"line5","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Line 5","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"choice","filters":[
+        "GMObject",
+      ],"listItems":[],"multiselect":false,"name":"choice","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
