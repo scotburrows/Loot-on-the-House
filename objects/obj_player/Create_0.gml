@@ -1,5 +1,7 @@
 /// @description Variable definitions
 // You can write your code in this editor
+window_set_size(1920,1080);
+
 enum dir {
 	right, left, up, down
 }
