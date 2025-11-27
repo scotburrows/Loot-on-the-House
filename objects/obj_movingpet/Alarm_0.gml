@@ -5,7 +5,7 @@ var next_movement = irandom(180) + 240;
 speed = 1;
 
 if (int == 0) { // up
-	if not (instance_position(x, y - 1, obj_tile) or instance_position(x, y - 1, obj_roomborder)) {
+	if not (instance_position(x, y - 64, obj_tile) or instance_position(x, y - 64, obj_roomborder)) {
 		move_towards_point(x, y - 1, 1);
 		// sprite stuff
 		sprite_index = spr_player_up;
@@ -13,12 +13,12 @@ if (int == 0) { // up
 		image_speed = 1;
 		
 		alarm_set(0, next_movement)
-		alarm_set(1, 32);
+		alarm_set(1, 64);
 	}
 	else alarm_set(0, 1);
 }
 else if (int == 1) { // down
-	if not (instance_position(x, y + 1, obj_tile) or instance_position(x, y + 1, obj_roomborder)) {
+	if not (instance_position(x, y + 64, obj_tile) or instance_position(x, y + 64, obj_roomborder)) {
 		move_towards_point(x, y + 1, 1);
 		// sprite stuff
 		sprite_index = spr_player_down;
@@ -26,12 +26,12 @@ else if (int == 1) { // down
 		image_speed = 1;
 		
 		alarm_set(0, next_movement)
-		alarm_set(1, 32);
+		alarm_set(1, 64);
 	}
 	else alarm_set(0, 1);
 }
 else if (int == 2) { // right
-	if not (instance_position(x + 1, y, obj_tile) or instance_position(x + 1, y, obj_roomborder)) {
+	if not (instance_position(x + 64, y, obj_tile) or instance_position(x + 64, y, obj_roomborder)) {
 		move_towards_point(x + 1, y, 1);
 		// sprite stuff
 		sprite_index = spr_player_side;
@@ -39,12 +39,12 @@ else if (int == 2) { // right
 		image_speed = 1;
 		
 		alarm_set(0, next_movement)
-		alarm_set(1, 32);
+		alarm_set(1, 64);
 	}
 	else alarm_set(0, 1);
 }
 else if (int == 3) { // left
-	if not (instance_position(x - 1, y, obj_tile) or instance_position(x - 1, y, obj_roomborder)) {
+	if not (instance_position(x - 64, y, obj_tile) or instance_position(x - 64, y, obj_roomborder)) {
 		move_towards_point(x - 1, y, 1);
 		// sprite stuff
 		sprite_index = spr_player_side;
@@ -52,10 +52,13 @@ else if (int == 3) { // left
 		image_speed = 1;
 		
 		alarm_set(0, next_movement)
-		alarm_set(1, 32);
+		alarm_set(1, 64);
 	}
 	else alarm_set(0, 1);
 }
 else {// otherwise chill
-	alarm_set(0, irandom(180) + 180)
+	speed = 0;
+	alarm_set(0, irandom(180) + 180);
 }
+
+//show_debug_message(int);
