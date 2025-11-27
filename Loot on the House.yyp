@@ -37,9 +37,10 @@
   "name":"Loot on the House",
   "resources":[
     {"id":{"name":"fnt_trebuchet","path":"fonts/fnt_trebuchet/fnt_trebuchet.yy",},},
-    {"id":{"name":"obj_choice_basic","path":"objects/obj_choice_basic/obj_choice_basic.yy",},},
     {"id":{"name":"obj_darkness","path":"objects/obj_darkness/obj_darkness.yy",},},
+    {"id":{"name":"obj_dialogue_choice","path":"objects/obj_dialogue_choice/obj_dialogue_choice.yy",},},
     {"id":{"name":"obj_dialogue","path":"objects/obj_dialogue/obj_dialogue.yy",},},
+    {"id":{"name":"obj_movingpet","path":"objects/obj_movingpet/obj_movingpet.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_roomborder","path":"objects/obj_roomborder/obj_roomborder.yy",},},
     {"id":{"name":"obj_tile_dialoguetest","path":"objects/obj_tile_dialoguetest/obj_tile_dialoguetest.yy",},},

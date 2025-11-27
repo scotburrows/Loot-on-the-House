@@ -26,7 +26,7 @@ else if (num_lines > 1) {
 }
 else if (choice != noone and !instance_exists(choice)) {
 	instance_create_layer(0, 0, "Instances", choice);
-	choice == noone;
+	choice = noone;
 }
 else {
 	obj_player.can_move = true;

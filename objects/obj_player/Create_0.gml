@@ -16,3 +16,6 @@ overlay_alpha = 0;
 can_move = true;
 next_room = rm_test;
 global.paused = false;
+
+future_awareness = 0;
+global.awareness = 0;
