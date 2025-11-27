@@ -3,6 +3,9 @@
   "%Name":"obj_dialogue_choice",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":87,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":83,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":13,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_dialogue_choice",
@@ -29,6 +32,7 @@
     {"$GMObjectProperty":"v1","%Name":"choice1","filters":[],"listItems":[],"multiselect":false,"name":"choice1","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":2,},
     {"$GMObjectProperty":"v1","%Name":"choice2","filters":[],"listItems":[],"multiselect":false,"name":"choice2","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Not treu","varType":2,},
     {"$GMObjectProperty":"v1","%Name":"result","filters":[],"listItems":[],"multiselect":false,"name":"result","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"final_line","filters":[],"listItems":[],"multiselect":false,"name":"final_line","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"abcdefg","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
