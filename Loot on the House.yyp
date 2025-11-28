@@ -50,6 +50,8 @@
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"id":{"name":"rm_test2","path":"rooms/rm_test2/rm_test2.yy",},},
     {"id":{"name":"scr_choice_result","path":"scripts/scr_choice_result/scr_choice_result.yy",},},
+    {"id":{"name":"spr_darkness_light","path":"sprites/spr_darkness_light/spr_darkness_light.yy",},},
+    {"id":{"name":"spr_darkness","path":"sprites/spr_darkness/spr_darkness.yy",},},
     {"id":{"name":"spr_player_down_temp","path":"sprites/spr_player_down_temp/spr_player_down_temp.yy",},},
     {"id":{"name":"spr_player_down","path":"sprites/spr_player_down/spr_player_down.yy",},},
     {"id":{"name":"spr_player_side_temp","path":"sprites/spr_player_side_temp/spr_player_side_temp.yy",},},
