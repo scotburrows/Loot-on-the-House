@@ -24,11 +24,7 @@ else if (num_lines > 1) {
 	current_string = "";
 	alarm_set(0, 3);
 }
-else if (choice != noone and !instance_exists(choice)) {
-	instance_create_layer(0, 0, "Instances", choice);
-	choice = noone;
-}
-else {
+else if (alarm[2] == -1) {
 	obj_player.can_move = true;
 	alarm_set(2,30);
 }

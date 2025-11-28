@@ -5,5 +5,5 @@ obj_player.can_move = false;
 current_line = line1;
 current_string = "";
 char_num = 0;
-alarm_set(0, 3);
+alarm_set(0, 2);
 flicker = true;

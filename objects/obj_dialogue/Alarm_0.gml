@@ -8,5 +8,5 @@ if (string_length(current_line) == char_num) {
 	alarm_set(1, 35);
 }
 else {
-	alarm_set(0, 3);
+	alarm_set(0, 2);
 }

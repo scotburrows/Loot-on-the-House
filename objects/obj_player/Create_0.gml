@@ -20,5 +20,3 @@ global.paused = false;
 
 future_awareness = 0;
 global.awareness = 0;
-
-instance_create_layer(0, 0, "Instances", obj_dialogue_choice);
