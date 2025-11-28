@@ -43,6 +43,7 @@
     {"id":{"name":"obj_movingpet","path":"objects/obj_movingpet/obj_movingpet.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_roomborder","path":"objects/obj_roomborder/obj_roomborder.yy",},},
+    {"id":{"name":"obj_securitycam","path":"objects/obj_securitycam/obj_securitycam.yy",},},
     {"id":{"name":"obj_tile_dialoguetest","path":"objects/obj_tile_dialoguetest/obj_tile_dialoguetest.yy",},},
     {"id":{"name":"obj_tile_interactable","path":"objects/obj_tile_interactable/obj_tile_interactable.yy",},},
     {"id":{"name":"obj_tile_roomswitch","path":"objects/obj_tile_roomswitch/obj_tile_roomswitch.yy",},},

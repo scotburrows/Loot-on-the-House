@@ -3,12 +3,12 @@
 if (!obj_player.can_move) {
 	selection = not selection;
 
-	if (selection) {
-		x_offset = 30 + (15 * string_length(choice1));
+	if (selection) { // Top choice
+		x_offset = 35 + (14 * string_length(choice1));
 		y_offset = 0;
 	}
-	else {
-		x_offset = 30 + (15 * string_length(choice2));
+	else { // Bottom choice
+		x_offset = 35 + (14 * string_length(choice2));
 		y_offset = 50;
 	}
 
