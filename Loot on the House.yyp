@@ -44,6 +44,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_roomborder","path":"objects/obj_roomborder/obj_roomborder.yy",},},
     {"id":{"name":"obj_securitycam","path":"objects/obj_securitycam/obj_securitycam.yy",},},
+    {"id":{"name":"obj_text_popup","path":"objects/obj_text_popup/obj_text_popup.yy",},},
     {"id":{"name":"obj_tile_dialoguetest","path":"objects/obj_tile_dialoguetest/obj_tile_dialoguetest.yy",},},
     {"id":{"name":"obj_tile_interactable","path":"objects/obj_tile_interactable/obj_tile_interactable.yy",},},
     {"id":{"name":"obj_tile_ladder","path":"objects/obj_tile_ladder/obj_tile_ladder.yy",},},

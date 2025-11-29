@@ -7,7 +7,7 @@ x2 = x + radius * cos(degtorad(movement + (distance/2)));
 y1 = y + radius * sin(degtorad(movement - (distance/2)));
 y2 = y + radius * sin(degtorad(movement + (distance/2)));
 
-movement += 0.2 * cam_dir;
+if (moving) movement += 0.2 * cam_dir;
 
 // Move back and forth
 if (abs(movement - starting_angle) > distance) {
@@ -23,6 +23,10 @@ if (instance_exists(obj_player)) {
 	}
 }
 
-if (camera_awareness >= 40 && instance_exists(obj_timer)) {
+if (camera_awareness >= 40 && instance_exists(obj_timer) && !obj_timer.been_spotted) {
 	obj_timer.been_spotted = true;
+	moving = false;
+	color = c_red;
+	alarm_set(0, 120);
+	instance_create_layer(0, 0, "Instances", obj_text_popup, {text: "You've been spotted!", color: c_red});
 }

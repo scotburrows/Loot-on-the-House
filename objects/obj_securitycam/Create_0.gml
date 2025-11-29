@@ -14,3 +14,5 @@ movement = starting_angle;
 cam_dir = choose(1, -1);
 
 camera_awareness = 0;
+color = c_white;
+moving = true;
