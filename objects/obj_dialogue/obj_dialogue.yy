@@ -44,6 +44,7 @@
     {"$GMObjectProperty":"v1","%Name":"choice1","filters":[],"listItems":[],"multiselect":false,"name":"choice1","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Choice 1","varType":2,},
     {"$GMObjectProperty":"v1","%Name":"choice2","filters":[],"listItems":[],"multiselect":false,"name":"choice2","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Choice 2","varType":2,},
     {"$GMObjectProperty":"v1","%Name":"result","filters":[],"listItems":[],"multiselect":false,"name":"result","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"has_extra_line","filters":[],"listItems":[],"multiselect":false,"name":"has_extra_line","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

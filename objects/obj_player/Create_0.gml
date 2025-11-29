@@ -21,6 +21,6 @@ global.paused = false;
 future_awareness = 0;
 global.awareness = 0;
 
-has_ladder = true;
+has_ladder = false;
 global.ladder_placed = false;
 global.money = 0;
