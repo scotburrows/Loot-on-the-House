@@ -10,3 +10,8 @@ if (string_length(current_line) == char_num) {
 else {
 	alarm_set(0, 2);
 }
+
+if (current_line == "") {
+	obj_player.can_move = true;
+	alarm_set(2,30);
+}

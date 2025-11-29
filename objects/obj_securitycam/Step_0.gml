@@ -16,7 +16,7 @@ if (abs(movement - starting_angle) > distance) {
 
 // Player check
 if (instance_exists(obj_player)) {
-	if (rectangle_in_triangle(obj_player.x - 32, obj_player.y - 32, obj_player.x + 32, obj_player.y + 32, x, y, x1, y1, x2, y2)) {
+	if (rectangle_in_triangle(obj_player.x - 24, obj_player.y - 32, obj_player.x + 24, obj_player.y + 32, x, y, x1, y1, x2, y2)) {
 		global.awareness += 0.8;
 		show_debug_message(global.awareness);
 	}
