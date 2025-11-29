@@ -10,8 +10,8 @@
   "name":"obj_securitycam",
   "overriddenProperties":[],
   "parent":{
-    "name":"Utility",
-    "path":"folders/Objects/Utility.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -49,6 +49,7 @@
     {"id":{"name":"obj_tile_ladder","path":"objects/obj_tile_ladder/obj_tile_ladder.yy",},},
     {"id":{"name":"obj_tile_roomswitch","path":"objects/obj_tile_roomswitch/obj_tile_roomswitch.yy",},},
     {"id":{"name":"obj_tile","path":"objects/obj_tile/obj_tile.yy",},},
+    {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},},
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"id":{"name":"rm_test2","path":"rooms/rm_test2/rm_test2.yy",},},
     {"id":{"name":"scr_choice_result","path":"scripts/scr_choice_result/scr_choice_result.yy",},},

@@ -12,3 +12,5 @@ y2 = y;
 
 movement = starting_angle;
 cam_dir = choose(1, -1);
+
+camera_awareness = 0;
