@@ -1,0 +1,3 @@
+/// @description Toggle flashlight p2
+// You can write your code in this editor
+if (!instance_exists(obj_dialogue) or obj_dialogue.alarm[2] != -1) flashlight = !flashlight;

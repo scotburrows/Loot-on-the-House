@@ -26,3 +26,4 @@ global.ladder_placed = false;
 global.money = 0;
 
 global.darkness = false;
+global.powerout = false;
