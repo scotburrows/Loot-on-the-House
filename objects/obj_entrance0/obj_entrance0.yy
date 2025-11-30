@@ -27,6 +27,8 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"entrance_no","filters":[],"listItems":[],"multiselect":false,"name":"entrance_no","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"x_offset","filters":[],"listItems":[],"multiselect":false,"name":"x_offset","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-480","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"y_offset","filters":[],"listItems":[],"multiselect":false,"name":"y_offset","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-270","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -32,7 +32,7 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"next_room","filters":[
         "GMRoom",
-      ],"listItems":[],"multiselect":false,"name":"next_room","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"next_room","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"rm_empty","path":"rooms/rm_empty/rm_empty.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"rm_empty","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"entrance","filters":[],"listItems":[],"multiselect":false,"name":"entrance","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
   ],
   "resourceType":"GMObject",
