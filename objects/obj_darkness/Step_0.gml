@@ -1,5 +1,6 @@
 /// @description Follow player
 // You can write your code in this editor
+/*
 x = player.x;
 y = player.y;
 
@@ -14,3 +15,4 @@ else if (player.image_index == spr_player_side) {
 	if (player.image_xscale < 0) image_angle = 90;
 	else image_angle = 270;
 }
+*/

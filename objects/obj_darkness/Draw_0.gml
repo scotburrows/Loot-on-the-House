@@ -1,0 +1,24 @@
+/// @description Insert description here
+// You can write your code in this editor
+var screen = surface_create(room_width, room_height)
+surface_set_target(screen);
+draw_clear(c_black);
+
+// Light circle around player
+gpu_set_blendmode(bm_subtract);
+draw_circle(player.x, player.y, 80, false);
+
+var vision_cone = 600;
+if (true or player.has_flashlight) {
+	if (player.sprite_index == spr_player_down) draw_triangle(player.x, player.y, player.x - vision_cone, player.y + 1000, player.x + vision_cone, player.y + 1000, false);
+	else if (player.sprite_index == spr_player_up) draw_triangle(player.x, player.y, player.x - vision_cone, player.y - 1000, player.x + vision_cone, player.y - 1000, false);
+	else if (player.sprite_index == spr_player_side) {
+		if (player.image_xscale < 0) draw_triangle(player.x, player.y, player.x + 1000, player.y - vision_cone, player.x + 1000, player.y + vision_cone, false);
+		else draw_triangle(player.x, player.y, player.x - 1000, player.y - vision_cone, player.x - 1000, player.y + vision_cone, false);
+	}
+}
+
+gpu_set_blendmode(bm_normal);
+surface_reset_target();
+draw_surface(screen, 0, 0);
+surface_free(screen);
