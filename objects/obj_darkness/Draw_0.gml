@@ -8,17 +8,27 @@ draw_clear(c_black);
 gpu_set_blendmode(bm_subtract);
 draw_circle(player.x, player.y, 80, false);
 
+// Flashlight
 var vision_cone = 600;
-if (true or player.has_flashlight) {
-	if (player.sprite_index == spr_player_down) draw_triangle(player.x, player.y, player.x - vision_cone, player.y + 1000, player.x + vision_cone, player.y + 1000, false);
-	else if (player.sprite_index == spr_player_up) draw_triangle(player.x, player.y, player.x - vision_cone, player.y - 1000, player.x + vision_cone, player.y - 1000, false);
+vision_cone = 30;
+x1 = player.x + 1000 * cos(degtorad(angle - vision_cone));
+x2 = player.x + 1000 * cos(degtorad(angle + vision_cone));
+y1 = player.y + 1000 * sin(degtorad(angle - vision_cone));
+y2 = player.y + 1000 * sin(degtorad(angle + vision_cone));
+draw_triangle(player.x, player.y, x1, y1, x2, y2, false);
+
+/*if (true or player.has_flashlight) {
+	if (player.sprite_index == spr_player_down) draw_triangle(player.x, player.y, player.x - vision_cone * 1.5, player.y + 1000, player.x + vision_cone * 1.5, player.y + 1000, false);
+	else if (player.sprite_index == spr_player_up) draw_triangle(player.x, player.y, player.x - vision_cone * 1.5, player.y - 1000, player.x + vision_cone * 1.5, player.y - 1000, false);
 	else if (player.sprite_index == spr_player_side) {
 		if (player.image_xscale < 0) draw_triangle(player.x, player.y, player.x + 1000, player.y - vision_cone, player.x + 1000, player.y + vision_cone, false);
 		else draw_triangle(player.x, player.y, player.x - 1000, player.y - vision_cone, player.x - 1000, player.y + vision_cone, false);
 	}
-}
+}*/
 
 gpu_set_blendmode(bm_normal);
 surface_reset_target();
+draw_set_alpha(0.97);
 draw_surface(screen, 0, 0);
 surface_free(screen);
+draw_set_alpha(1);
