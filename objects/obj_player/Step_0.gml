@@ -62,15 +62,15 @@ else if (array_length(direction_priority) > 0) {
 }*/
 
 if (global.switching_room) {
-	overlay_alpha += 0.01;
+	overlay_alpha += 0.03;
 	can_move = false;
-	if (overlay_alpha >= 1 and next_room != rm_test) {
+	if (overlay_alpha >= 1 and next_room != rm_empty) {
 		room_goto(next_room);
-		next_room = rm_test;
+		next_room = rm_empty;
 		global.switching_room = false;
 		can_move = true;
 	}
 }
-else {
-	overlay_alpha -= 0.01;
+else if (overlay_alpha > 0) {
+	overlay_alpha -= 0.03;
 }

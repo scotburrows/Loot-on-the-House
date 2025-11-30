@@ -7,6 +7,7 @@ if (selection) {
 else {
 	scr_choice_result(result + 1);
 	obj_player.can_move = true;
+	obj_dialogue.alarm[2] = 30;
 	alarm_set(2, 30);
 }
 
