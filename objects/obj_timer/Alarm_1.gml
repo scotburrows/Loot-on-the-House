@@ -5,11 +5,13 @@ show_debug_message(rand);
 if (room == rm_basement) {
 	if (rand < 0.03) {
 		game_over = true;
+		obj_player.can_move = false;
 	}
 }
 else if (room != rm_shop and true) {
 	if (rand < 0.1) {
 		game_over = true;
+		obj_player.can_move = false;
 	}
 }
 

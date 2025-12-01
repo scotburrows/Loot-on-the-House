@@ -1,4 +1,5 @@
 /// @description Flicker
 // You can write your code in this editor
 flicker = !flicker;
-alarm_set(0,20);
+if (room == rm_basement) alarm_set(0, 40);
+else alarm_set(0,20);

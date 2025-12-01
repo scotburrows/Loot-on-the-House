@@ -4,7 +4,7 @@
 // Spotted reduces time
 if (!instance_exists(obj_dialogue) or obj_dialogue.alarm[2] != -1) {
 	if (global.time_running && global.time_remaining > 0) {
-		global.time_remaining -= 10;
+		global.time_remaining -= 1;
 	}
 
 	if (been_spotted and !has_reduced_time) {
