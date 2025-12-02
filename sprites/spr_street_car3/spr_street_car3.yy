@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_street_car",
+  "%Name":"spr_street_car3",
   "bboxMode":0,
   "bbox_bottom":127,
   "bbox_left":8,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a4e70d60-b4fa-4a79-852a-f70efca10bc8","name":"a4e70d60-b4fa-4a79-852a-f70efca10bc8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f3d95a5b-fd6d-420a-9ebb-774d90e3a25d","name":"f3d95a5b-fd6d-420a-9ebb-774d90e3a25d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":128,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"8e9cf6d3-19a8-4399-98b3-39d8471570d9","blendMode":0,"displayName":"default","isLocked":false,"name":"8e9cf6d3-19a8-4399-98b3-39d8471570d9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"8f8e6e61-18de-44dc-883b-02b9e9ca7e36","blendMode":0,"displayName":"default","isLocked":false,"name":"8f8e6e61-18de-44dc-883b-02b9e9ca7e36","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_street_car",
+  "name":"spr_street_car3",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"spr_street_car",
+    "%Name":"spr_street_car3",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_street_car",
+    "name":"spr_street_car3",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a4e70d60-b4fa-4a79-852a-f70efca10bc8","path":"sprites/spr_street_car/spr_street_car.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7751d808-6ac1-420b-bdc1-7c520605ca9d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f3d95a5b-fd6d-420a-9ebb-774d90e3a25d","path":"sprites/spr_street_car3/spr_street_car3.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b5363605-b640-455b-b639-bcd0b5b18ae8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
