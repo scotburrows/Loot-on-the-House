@@ -10,7 +10,7 @@ direction_priority = [];
 
 global.room_entrance = 0;
 flashlight = false;
-has_flashlight = false;
+has_flashlight = true; // REMOVE THIS
 
 global.switching_room = false;
 overlay_alpha = 0;
