@@ -65,6 +65,7 @@
     {"id":{"name":"obj_tile_stealable","path":"objects/obj_tile_stealable/obj_tile_stealable.yy",},},
     {"id":{"name":"obj_tile","path":"objects/obj_tile/obj_tile.yy",},},
     {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},},
+    {"id":{"name":"rm_backyard","path":"rooms/rm_backyard/rm_backyard.yy",},},
     {"id":{"name":"rm_basement","path":"rooms/rm_basement/rm_basement.yy",},},
     {"id":{"name":"rm_empty","path":"rooms/rm_empty/rm_empty.yy",},},
     {"id":{"name":"rm_foyer","path":"rooms/rm_foyer/rm_foyer.yy",},},
@@ -170,6 +171,7 @@
     {"roomId":{"name":"rm_sewers","path":"rooms/rm_sewers/rm_sewers.yy",},},
     {"roomId":{"name":"rm_livingroom","path":"rooms/rm_livingroom/rm_livingroom.yy",},},
     {"roomId":{"name":"rm_frontyard","path":"rooms/rm_frontyard/rm_frontyard.yy",},},
+    {"roomId":{"name":"rm_backyard","path":"rooms/rm_backyard/rm_backyard.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
