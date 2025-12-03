@@ -27,4 +27,10 @@ function scr_choice_result(result){
 		obj_player.next_room = rm_sewers;
 		obj_player.sprite_index = spr_player_down;
 	}
+	else if (result == 10) { // unlock front door
+		global.switching_room = true;
+		global.room_entrance = 0;
+		obj_player.next_room = rm_foyer;
+		global.front_door_unlocked = true;
+	}
 }

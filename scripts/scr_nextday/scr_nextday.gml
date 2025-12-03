@@ -6,6 +6,11 @@ function scr_nextday(){
 	
 	if (global.ladder_placed) {
 		global.ladder_placed = false;
-		awareness += 100;
+		global.awareness += 100;
+	}
+	
+	if (global.front_door_unlocked) {
+		global.awareness += 75;
+		global.front_door_unlocked = false;
 	}
 }

@@ -29,3 +29,6 @@ global.money = 0;
 
 global.darkness = false;
 global.powerout = false;
+
+has_front_door_key = false;
+global.front_door_unlocked = false;
