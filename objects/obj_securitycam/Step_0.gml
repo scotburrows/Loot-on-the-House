@@ -7,12 +7,22 @@ x2 = x + radius * cos(degtorad(movement + (distance/2)));
 y1 = y + radius * sin(degtorad(movement - (distance/2)));
 y2 = y + radius * sin(degtorad(movement + (distance/2)));
 
-if (moving and global.powerout) movement += 0.2 * cam_dir;
-
-// Move back and forth
-if (abs(movement - starting_angle) > distance) {
-	cam_dir = cam_dir * -1;
+if (moving and !global.powerout) {
+	movement += 0.2 * cam_dir;
+	
+	image_angle = 90 - movement;
+	image_speed = 1;
+	// Move back and forth
+	if (abs(movement - starting_angle) > distance) {
+		cam_dir = cam_dir * -1;
+	}
 }
+else {
+	image_index = obj_timer.been_spotted;
+	image_speed = 0;
+}
+
+
 
 // Player check
 if (instance_exists(obj_player) and !global.powerout) {
