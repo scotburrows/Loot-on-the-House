@@ -21,4 +21,10 @@ function scr_choice_result(result){
 		global.powerout = true;
 		obj_player.future_awareness += 50;
 	}
+	else if (result == 8) { // enter sewer from manhole
+		global.switching_room = true;
+		global.room_entrance = 1;
+		obj_player.next_room = rm_basement;
+		global.sewer_discovered = true;
+	}
 }

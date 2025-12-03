@@ -105,6 +105,7 @@
     {"name":"inst_5D8F3441","path":"rooms/rm_street_start/rm_street_start.yy",},
     {"name":"inst_69CABCE","path":"rooms/rm_street_start/rm_street_start.yy",},
     {"name":"inst_4CED0299","path":"rooms/rm_street_start/rm_street_start.yy",},
+    {"name":"inst_7D13B992","path":"rooms/rm_street_start/rm_street_start.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -220,6 +221,7 @@
         {"$GMRInstance":"v1","%Name":"inst_4CED0299","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4CED0299","objectId":{"name":"obj_tile_roomswitch","path":"objects/obj_tile_roomswitch/obj_tile_roomswitch.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tile_roomswitch","path":"objects/obj_tile_roomswitch/obj_tile_roomswitch.yy",},"propertyId":{"name":"next_room","path":"objects/obj_tile_roomswitch/obj_tile_roomswitch.yy",},"resource":{"name":"rm_street_end","path":"rooms/rm_street_end/rm_street_end.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_street_end",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1152.0,"y":320.0,},
+        {"$GMRInstance":"v1","%Name":"inst_7D13B992","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7D13B992","objectId":{"name":"obj_tile_roomswitch_sewer","path":"objects/obj_tile_roomswitch_sewer/obj_tile_roomswitch_sewer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":416.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_2B665A7","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_2B665A7","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_street_road","path":"sprites/spr_street_road/spr_street_road.yy",},"x":0.0,"y":448.0,},
