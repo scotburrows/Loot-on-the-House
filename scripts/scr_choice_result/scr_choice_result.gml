@@ -24,7 +24,7 @@ function scr_choice_result(result){
 	else if (result == 8) { // enter sewer from manhole
 		global.switching_room = true;
 		global.room_entrance = 1;
-		obj_player.next_room = rm_basement;
-		global.sewer_discovered = true;
+		obj_player.next_room = rm_sewers;
+		obj_player.sprite_index = spr_player_down;
 	}
 }

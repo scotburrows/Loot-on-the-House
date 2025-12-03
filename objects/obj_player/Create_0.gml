@@ -21,6 +21,8 @@ global.paused = false;
 future_awareness = 0;
 global.awareness = 0;
 
+global.sewer_discovered = false;
+
 has_ladder = false;
 global.ladder_placed = false;
 global.money = 0;
