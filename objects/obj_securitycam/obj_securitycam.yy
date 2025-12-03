@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player_down_temp",
-    "path":"sprites/spr_player_down_temp/spr_player_down_temp.yy",
+    "name":"spr_securitycam",
+    "path":"sprites/spr_securitycam/spr_securitycam.yy",
   },
   "spriteMaskId":null,
   "visible":true,

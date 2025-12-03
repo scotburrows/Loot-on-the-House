@@ -7,7 +7,7 @@ x2 = x + radius * cos(degtorad(movement + (distance/2)));
 y1 = y + radius * sin(degtorad(movement - (distance/2)));
 y2 = y + radius * sin(degtorad(movement + (distance/2)));
 
-if (moving) movement += 0.2 * cam_dir;
+if (moving and global.powerout) movement += 0.2 * cam_dir;
 
 // Move back and forth
 if (abs(movement - starting_angle) > distance) {
@@ -15,7 +15,7 @@ if (abs(movement - starting_angle) > distance) {
 }
 
 // Player check
-if (instance_exists(obj_player)) {
+if (instance_exists(obj_player) and !global.powerout) {
 	if (rectangle_in_triangle(obj_player.x - 24, obj_player.y - 32, obj_player.x + 24, obj_player.y + 32, x, y, x1, y1, x2, y2)) {
 		global.awareness += 0.8;
 		camera_awareness += 0.8;
