@@ -65,6 +65,7 @@
     {"id":{"name":"obj_tile_stealable","path":"objects/obj_tile_stealable/obj_tile_stealable.yy",},},
     {"id":{"name":"obj_tile","path":"objects/obj_tile/obj_tile.yy",},},
     {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},},
+    {"id":{"name":"rm_attic","path":"rooms/rm_attic/rm_attic.yy",},},
     {"id":{"name":"rm_backyard","path":"rooms/rm_backyard/rm_backyard.yy",},},
     {"id":{"name":"rm_basement","path":"rooms/rm_basement/rm_basement.yy",},},
     {"id":{"name":"rm_bathroom","path":"rooms/rm_bathroom/rm_bathroom.yy",},},
@@ -84,6 +85,7 @@
     {"id":{"name":"rm_test2","path":"rooms/rm_test2/rm_test2.yy",},},
     {"id":{"name":"scr_choice_result","path":"scripts/scr_choice_result/scr_choice_result.yy",},},
     {"id":{"name":"scr_nextday","path":"scripts/scr_nextday/scr_nextday.yy",},},
+    {"id":{"name":"spr_attic_tile","path":"sprites/spr_attic_tile/spr_attic_tile.yy",},},
     {"id":{"name":"spr_basement_stairs","path":"sprites/spr_basement_stairs/spr_basement_stairs.yy",},},
     {"id":{"name":"spr_basement_tile","path":"sprites/spr_basement_tile/spr_basement_tile.yy",},},
     {"id":{"name":"spr_basement_wall","path":"sprites/spr_basement_wall/spr_basement_wall.yy",},},
@@ -187,6 +189,7 @@
     {"roomId":{"name":"rm_bathroom","path":"rooms/rm_bathroom/rm_bathroom.yy",},},
     {"roomId":{"name":"rm_gameroom","path":"rooms/rm_gameroom/rm_gameroom.yy",},},
     {"roomId":{"name":"rm_bedroom","path":"rooms/rm_bedroom/rm_bedroom.yy",},},
+    {"roomId":{"name":"rm_attic","path":"rooms/rm_attic/rm_attic.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

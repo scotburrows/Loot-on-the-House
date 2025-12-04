@@ -25,6 +25,6 @@ if (global.time_remaining <= 0) {
 }
 
 // Don't display timer outside of house
-if (room == rm_shop or false) {
+if (room == rm_shop or room == rm_street_start or room == rm_street_end or room == rm_sewers) {
 	flicker = false;
 }
