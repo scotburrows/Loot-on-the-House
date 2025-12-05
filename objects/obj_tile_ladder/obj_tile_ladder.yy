@@ -4,6 +4,7 @@
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_tile_ladder",
@@ -34,9 +35,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tile_interact",
-    "path":"sprites/spr_tile_interact/spr_tile_interact.yy",
+    "name":"spr_yard_ladder",
+    "path":"sprites/spr_yard_ladder/spr_yard_ladder.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_tile",
+    "path":"sprites/spr_tile/spr_tile.yy",
+  },
   "visible":true,
 }

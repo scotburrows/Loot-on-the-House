@@ -178,6 +178,8 @@
     {"id":{"name":"spr_workshop_table2","path":"sprites/spr_workshop_table2/spr_workshop_table2.yy",},},
     {"id":{"name":"spr_workshop_table3","path":"sprites/spr_workshop_table3/spr_workshop_table3.yy",},},
     {"id":{"name":"spr_workshop_toolbox","path":"sprites/spr_workshop_toolbox/spr_workshop_toolbox.yy",},},
+    {"id":{"name":"spr_yard_alert","path":"sprites/spr_yard_alert/spr_yard_alert.yy",},},
+    {"id":{"name":"spr_yard_ladder","path":"sprites/spr_yard_ladder/spr_yard_ladder.yy",},},
     {"id":{"name":"spr_yard_pillar","path":"sprites/spr_yard_pillar/spr_yard_pillar.yy",},},
   ],
   "resourceType":"GMProject",
