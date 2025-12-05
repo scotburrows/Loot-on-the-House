@@ -33,4 +33,17 @@ function scr_choice_result(result){
 		obj_player.next_room = rm_foyer;
 		global.front_door_unlocked = true;
 	}
+	else if (result == 10) { // unlock front door
+		global.switching_room = true;
+		global.room_entrance = 0;
+		obj_player.next_room = rm_foyer;
+		global.front_door_unlocked = true;
+	}
+	else if (result = 12) { // get blue key
+		global.has_blue_key = true;
+		obj_player.has_premium_fish = false;
+	}
+	else if (result = 14) { // get fish
+		obj_player.has_premium_fish = true;
+	}
 }

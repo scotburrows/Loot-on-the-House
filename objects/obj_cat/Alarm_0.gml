@@ -8,7 +8,7 @@ if (int == 0) { // up
 	if not (instance_position(x, y - 64, obj_tile) or instance_position(x, y - 64, obj_roomborder) or instance_position(x, y - 64, obj_player)) {
 		move_towards_point(x, y - 1, 1);
 		// sprite stuff
-		sprite_index = spr_player_up;
+		sprite_index = spr_cat_up;
 		image_xscale = 1;
 		image_speed = 1;
 		
@@ -21,7 +21,7 @@ else if (int == 1) { // down
 	if not (instance_position(x, y + 64, obj_tile) or instance_position(x, y + 64, obj_roomborder) or instance_position(x, y + 64, obj_player)) {
 		move_towards_point(x, y + 1, 1);
 		// sprite stuff
-		sprite_index = spr_player_down;
+		sprite_index = spr_cat_down;
 		image_xscale = 1;
 		image_speed = 1;
 		
@@ -34,7 +34,7 @@ else if (int == 2) { // right
 	if not (instance_position(x + 64, y, obj_tile) or instance_position(x + 64, y, obj_roomborder) or instance_position(x + 64, y, obj_player)) {
 		move_towards_point(x + 1, y, 1);
 		// sprite stuff
-		sprite_index = spr_player_side;
+		sprite_index = spr_cat_side;
 		image_xscale = -1;
 		image_speed = 1;
 		
@@ -47,7 +47,7 @@ else if (int == 3) { // left
 	if not (instance_position(x - 64, y, obj_tile) or instance_position(x - 64, y, obj_roomborder) or instance_position(x - 64, y, obj_player)) {
 		move_towards_point(x - 1, y, 1);
 		// sprite stuff
-		sprite_index = spr_player_side;
+		sprite_index = spr_cat_side;
 		image_xscale = 1;
 		image_speed = 1;
 		

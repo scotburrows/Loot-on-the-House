@@ -32,3 +32,8 @@ global.powerout = false;
 
 has_front_door_key = false;
 global.front_door_unlocked = false;
+
+has_premium_fish = false;
+global.has_red_key = false;
+global.has_blue_key = false;
+global.has_green_key = false;
