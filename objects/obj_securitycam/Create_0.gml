@@ -1,7 +1,7 @@
 /// @description Starting vars
 // You can write your code in this editor
 
-if (global.awareness < 200) {
+if (global.awareness < threshold) {
 	instance_destroy();
 }
 

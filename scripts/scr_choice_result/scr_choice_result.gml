@@ -63,6 +63,7 @@ function scr_choice_result(result){
 		global.switching_room = true;
 		global.room_entrance = 0;
 		obj_player.next_room = rm_street_start;
+		if (global.awareness > 1000) obj_player.next_room = rm_gameover2;
 	}
 	else if (result >= 24 and result <= 37) { // vault steal
 		global.vault_collected[floor((result - 24) / 2)] = true
