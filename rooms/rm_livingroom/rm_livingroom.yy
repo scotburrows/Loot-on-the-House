@@ -422,8 +422,8 @@
   ],
   "name":"rm_livingroom",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Floor 2",
+    "path":"folders/Rooms/Floor 2.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

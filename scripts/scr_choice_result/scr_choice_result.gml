@@ -64,4 +64,18 @@ function scr_choice_result(result){
 		global.room_entrance = 0;
 		obj_player.next_room = rm_street_start;
 	}
+	else if (result >= 24 and result <= 37) { // vault steal
+		global.vault_collected[floor((result - 24) / 2)] = true
+		global.money += 100;
+	}
+	else if (result == 38) { // end game
+		global.switching_room = true;
+		obj_player.next_room = rm_winscreen;
+	}
+	else if (result == 40) { // unlock basement
+		global.basement_unlocked = true;
+		global.switching_room = true;
+		global.room_entrance = 0;
+		obj_player.next_room = rm_basement;
+	}
 }

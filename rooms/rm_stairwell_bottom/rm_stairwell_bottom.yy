@@ -368,8 +368,8 @@
   ],
   "name":"rm_stairwell_bottom",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Floor 1",
+    "path":"folders/Rooms/Floor 1.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

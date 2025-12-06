@@ -10,7 +10,7 @@ direction_priority = [];
 
 global.room_entrance = 0;
 flashlight = false;
-has_flashlight = true; // REMOVE THIS
+has_flashlight = false;
 
 global.switching_room = false;
 overlay_alpha = 0;
@@ -39,4 +39,12 @@ global.has_blue_key = false;
 global.has_green_key = false;
 global.vault_unlocked = false;
 global.entered_vault = false;
-global.vault_collected = [false, false, false, false, false, false]
+global.vault_collected = [false, false, false, false, false, false];
+
+has_basement_key = false;
+global.basement_unlocked = false;
+
+has_shoes = false;
+has_cloak = false;
+is_cloaking = false;
+global.found_cat = false;

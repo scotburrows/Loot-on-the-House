@@ -1077,8 +1077,8 @@
   ],
   "name":"rm_frontyard",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Outside",
+    "path":"folders/Rooms/Outside.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -29,7 +29,7 @@ if (vspeed = 0 and hspeed = 0) {
 	}
 }
 else {
-	image_speed = 1;
+	image_speed = abs(move_speed) / 6;
 }
 
 // Keep staying in one direction
