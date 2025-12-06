@@ -149,6 +149,8 @@
     {"id":{"name":"spr_kitchen_oven","path":"sprites/spr_kitchen_oven/spr_kitchen_oven.yy",},},
     {"id":{"name":"spr_kitchen_table","path":"sprites/spr_kitchen_table/spr_kitchen_table.yy",},},
     {"id":{"name":"spr_kitchen_tile","path":"sprites/spr_kitchen_tile/spr_kitchen_tile.yy",},},
+    {"id":{"name":"spr_lamp_short","path":"sprites/spr_lamp_short/spr_lamp_short.yy",},},
+    {"id":{"name":"spr_lamp_tall","path":"sprites/spr_lamp_tall/spr_lamp_tall.yy",},},
     {"id":{"name":"spr_lamp","path":"sprites/spr_lamp/spr_lamp.yy",},},
     {"id":{"name":"spr_library_chair","path":"sprites/spr_library_chair/spr_library_chair.yy",},},
     {"id":{"name":"spr_livingroom_tile","path":"sprites/spr_livingroom_tile/spr_livingroom_tile.yy",},},
