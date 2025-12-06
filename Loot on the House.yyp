@@ -64,6 +64,8 @@
     {"id":{"name":"obj_tile_interactable","path":"objects/obj_tile_interactable/obj_tile_interactable.yy",},},
     {"id":{"name":"obj_tile_ladder","path":"objects/obj_tile_ladder/obj_tile_ladder.yy",},},
     {"id":{"name":"obj_tile_roomswitch_attic","path":"objects/obj_tile_roomswitch_attic/obj_tile_roomswitch_attic.yy",},},
+    {"id":{"name":"obj_tile_roomswitch_car_enter","path":"objects/obj_tile_roomswitch_car_enter/obj_tile_roomswitch_car_enter.yy",},},
+    {"id":{"name":"obj_tile_roomswitch_car_leave","path":"objects/obj_tile_roomswitch_car_leave/obj_tile_roomswitch_car_leave.yy",},},
     {"id":{"name":"obj_tile_roomswitch_frontyard","path":"objects/obj_tile_roomswitch_frontyard/obj_tile_roomswitch_frontyard.yy",},},
     {"id":{"name":"obj_tile_roomswitch_sewer","path":"objects/obj_tile_roomswitch_sewer/obj_tile_roomswitch_sewer.yy",},},
     {"id":{"name":"obj_tile_roomswitch","path":"objects/obj_tile_roomswitch/obj_tile_roomswitch.yy",},},

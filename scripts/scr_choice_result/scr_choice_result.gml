@@ -53,4 +53,15 @@ function scr_choice_result(result){
 	else if (result == 18) { // turn on generator
 		global.powerout = false;
 	}
+	else if (result == 20) { // leave for the day
+		global.switching_room = true;
+		global.room_entrance = 0;
+		obj_player.next_room = rm_street_end;
+		scr_nextday();
+	}
+	else if (result == 22) { // go back after shop
+		global.switching_room = true;
+		global.room_entrance = 0;
+		obj_player.next_room = rm_street_start;
+	}
 }
