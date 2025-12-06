@@ -37,5 +37,5 @@
     "path":"sprites/spr_tile_room2/spr_tile_room2.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

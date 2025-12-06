@@ -1,0 +1,1 @@
+global.darkness = false;

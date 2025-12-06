@@ -10,7 +10,12 @@ function scr_nextday(){
 	}
 	
 	if (global.front_door_unlocked) {
-		global.awareness += 75;
+		global.awareness += 50;
 		global.front_door_unlocked = false;
+	}
+	
+	if (global.powerout) {
+		global.awareness += 100;
+		global.powerout = false;
 	}
 }

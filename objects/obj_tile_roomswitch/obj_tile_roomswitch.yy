@@ -43,5 +43,5 @@
     "path":"sprites/spr_tile_room/spr_tile_room.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

@@ -41,5 +41,5 @@
     "path":"sprites/spr_tile_interact/spr_tile_interact.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

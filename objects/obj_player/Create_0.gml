@@ -38,3 +38,5 @@ global.has_red_key = false;
 global.has_blue_key = false;
 global.has_green_key = false;
 global.vault_unlocked = false;
+global.entered_vault = false;
+global.vault_collected = [false, false, false, false, false, false]

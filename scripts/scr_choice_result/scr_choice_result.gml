@@ -21,7 +21,6 @@ function scr_choice_result(result){
 	}
 	else if (result == 6) { // sabotage generator
 		global.powerout = true;
-		obj_player.future_awareness += 50;
 	}
 	else if (result == 8) { // enter sewer from manhole
 		global.switching_room = true;
@@ -50,5 +49,8 @@ function scr_choice_result(result){
 	}
 	else if (result = 16) { // unlock vault
 		global.vault_unlocked = true;
+	}
+	else if (result == 18) { // turn on generator
+		global.powerout = false;
 	}
 }

@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_generator",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_generator",
   "overriddenProperties":[],
@@ -9,7 +11,10 @@
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_tile_dialogue",
+    "path":"objects/obj_tile_dialogue/obj_tile_dialogue.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_backyard_generator",
+    "path":"sprites/spr_backyard_generator/spr_backyard_generator.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
