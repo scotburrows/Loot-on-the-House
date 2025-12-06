@@ -10,8 +10,10 @@ function scr_choice_result(result){
 		show_debug_message("Ladder placed");
 	}
 	else if (result == 4) { // climb ladder
-		obj_player.can_move = true;
-		room_goto(rm_livingroom); // SET ROOM To Balcony
+		global.switching_room = true;
+		global.room_entrance = 4;
+		if (room == rm_frontyard) obj_player.next_room = rm_balcony;
+		else if (room == rm_balcony) obj_player.next_room = rm_frontyard;
 	}
 	else if (result == 5) { /// take back ladder
 		global.ladder_placed = false;

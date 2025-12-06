@@ -4,5 +4,6 @@ if ((not global.ladder_placed) and instance_exists(obj_player) and obj_player.ha
 	sprite_index = spr_yard_alert;	
 }
 else if (global.ladder_placed) {
-	sprite_index = spr_yard_ladder;
+	if (room == rm_frontyard) sprite_index = spr_yard_ladder;
+	else if (room == rm_balcony) sprite_index = spr_yard_ladder2;
 }
