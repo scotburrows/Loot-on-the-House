@@ -107,6 +107,8 @@
     {"id":{"name":"spr_bathroom_curtains","path":"sprites/spr_bathroom_curtains/spr_bathroom_curtains.yy",},},
     {"id":{"name":"spr_bathroom_curtains2","path":"sprites/spr_bathroom_curtains2/spr_bathroom_curtains2.yy",},},
     {"id":{"name":"spr_bathroom_tile","path":"sprites/spr_bathroom_tile/spr_bathroom_tile.yy",},},
+    {"id":{"name":"spr_bedroom_bed1","path":"sprites/spr_bedroom_bed1/spr_bedroom_bed1.yy",},},
+    {"id":{"name":"spr_bedroom_bed2","path":"sprites/spr_bedroom_bed2/spr_bedroom_bed2.yy",},},
     {"id":{"name":"spr_bedroom_wall","path":"sprites/spr_bedroom_wall/spr_bedroom_wall.yy",},},
     {"id":{"name":"spr_bookshelf0","path":"sprites/spr_bookshelf0/spr_bookshelf0.yy",},},
     {"id":{"name":"spr_bookshelf1","path":"sprites/spr_bookshelf1/spr_bookshelf1.yy",},},
