@@ -28,3 +28,6 @@ if (global.time_remaining <= 0) {
 if (room == rm_shop or room == rm_street_start or room == rm_street_end or room == rm_sewers) {
 	flicker = false;
 }
+else if (!out_of_time) {
+	flicker = true;
+}
