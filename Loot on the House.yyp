@@ -91,6 +91,7 @@
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"id":{"name":"rm_test2","path":"rooms/rm_test2/rm_test2.yy",},},
     {"id":{"name":"rm_vault_entrance","path":"rooms/rm_vault_entrance/rm_vault_entrance.yy",},},
+    {"id":{"name":"rm_workshop","path":"rooms/rm_workshop/rm_workshop.yy",},},
     {"id":{"name":"scr_choice_result","path":"scripts/scr_choice_result/scr_choice_result.yy",},},
     {"id":{"name":"scr_nextday","path":"scripts/scr_nextday/scr_nextday.yy",},},
     {"id":{"name":"spr_attic_hatch","path":"sprites/spr_attic_hatch/spr_attic_hatch.yy",},},
@@ -192,6 +193,7 @@
     {"id":{"name":"spr_window_curtains","path":"sprites/spr_window_curtains/spr_window_curtains.yy",},},
     {"id":{"name":"spr_window","path":"sprites/spr_window/spr_window.yy",},},
     {"id":{"name":"spr_woodtile","path":"sprites/spr_woodtile/spr_woodtile.yy",},},
+    {"id":{"name":"spr_workshop_ladder","path":"sprites/spr_workshop_ladder/spr_workshop_ladder.yy",},},
     {"id":{"name":"spr_workshop_table_empty","path":"sprites/spr_workshop_table_empty/spr_workshop_table_empty.yy",},},
     {"id":{"name":"spr_workshop_table","path":"sprites/spr_workshop_table/spr_workshop_table.yy",},},
     {"id":{"name":"spr_workshop_table2","path":"sprites/spr_workshop_table2/spr_workshop_table2.yy",},},
@@ -226,6 +228,7 @@
     {"roomId":{"name":"rm_stairwell_bottom","path":"rooms/rm_stairwell_bottom/rm_stairwell_bottom.yy",},},
     {"roomId":{"name":"rm_stairwell_top","path":"rooms/rm_stairwell_top/rm_stairwell_top.yy",},},
     {"roomId":{"name":"rm_mainhall","path":"rooms/rm_mainhall/rm_mainhall.yy",},},
+    {"roomId":{"name":"rm_workshop","path":"rooms/rm_workshop/rm_workshop.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
