@@ -46,4 +46,7 @@ function scr_choice_result(result){
 	else if (result = 14) { // get fish
 		obj_player.has_premium_fish = true;
 	}
+	else if (result = 16) { // unlock vault
+		global.vault_unlocked = true;
+	}
 }
