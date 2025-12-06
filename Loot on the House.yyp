@@ -81,6 +81,7 @@
     {"id":{"name":"rm_kitchen","path":"rooms/rm_kitchen/rm_kitchen.yy",},},
     {"id":{"name":"rm_library","path":"rooms/rm_library/rm_library.yy",},},
     {"id":{"name":"rm_livingroom","path":"rooms/rm_livingroom/rm_livingroom.yy",},},
+    {"id":{"name":"rm_mainhall","path":"rooms/rm_mainhall/rm_mainhall.yy",},},
     {"id":{"name":"rm_sewers","path":"rooms/rm_sewers/rm_sewers.yy",},},
     {"id":{"name":"rm_shop","path":"rooms/rm_shop/rm_shop.yy",},},
     {"id":{"name":"rm_stairwell_bottom","path":"rooms/rm_stairwell_bottom/rm_stairwell_bottom.yy",},},
@@ -224,6 +225,7 @@
     {"roomId":{"name":"rm_vault_entrance","path":"rooms/rm_vault_entrance/rm_vault_entrance.yy",},},
     {"roomId":{"name":"rm_stairwell_bottom","path":"rooms/rm_stairwell_bottom/rm_stairwell_bottom.yy",},},
     {"roomId":{"name":"rm_stairwell_top","path":"rooms/rm_stairwell_top/rm_stairwell_top.yy",},},
+    {"roomId":{"name":"rm_mainhall","path":"rooms/rm_mainhall/rm_mainhall.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
