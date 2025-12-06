@@ -1,1 +1,3 @@
-instance_create_layer(0, 0, "Instances_1", obj_text_popup, {text: "Room needs setup"});
+instance_destroy(obj_player);
+instance_destroy(obj_darkness);
+instance_destroy(obj_timer);

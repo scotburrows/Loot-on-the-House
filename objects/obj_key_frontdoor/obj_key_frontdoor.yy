@@ -10,8 +10,8 @@
   "name":"obj_key_frontdoor",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Stealables",
+    "path":"folders/Objects/Stealables.yy",
   },
   "parentObjectId":null,
   "persistent":false,

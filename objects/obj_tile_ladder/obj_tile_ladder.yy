@@ -10,8 +10,8 @@
   "name":"obj_tile_ladder",
   "overriddenProperties":[],
   "parent":{
-    "name":"Utility",
-    "path":"folders/Objects/Utility.yy",
+    "name":"Room Switch",
+    "path":"folders/Objects/Utility/Room Switch.yy",
   },
   "parentObjectId":{
     "name":"obj_tile_interactable",

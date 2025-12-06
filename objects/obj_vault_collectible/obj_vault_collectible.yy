@@ -10,8 +10,8 @@
   "name":"obj_vault_collectible",
   "overriddenProperties":[],
   "parent":{
-    "name":"Utility",
-    "path":"folders/Objects/Utility.yy",
+    "name":"Stealables",
+    "path":"folders/Objects/Stealables.yy",
   },
   "parentObjectId":{
     "name":"obj_tile_interactable",
