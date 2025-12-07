@@ -7,3 +7,4 @@ current_string = "";
 char_num = 0;
 alarm_set(0, 2);
 flicker = true;
+obj_player.speed = 0;
