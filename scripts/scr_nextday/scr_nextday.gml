@@ -19,5 +19,9 @@ function scr_nextday(){
 		global.powerout = false;
 	}
 	
+	if (obj_player.has_premium_fish) {
+		global.awareness += 40;
+	}
+	
 	global.cat_location = irandom(5);
 }

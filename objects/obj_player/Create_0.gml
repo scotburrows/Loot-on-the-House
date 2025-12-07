@@ -25,7 +25,7 @@ global.sewer_discovered = false;
 
 has_ladder = false;
 global.ladder_placed = false;
-global.money = 150;
+global.money = 0;
 
 global.darkness = false;
 global.powerout = false;
@@ -33,7 +33,7 @@ global.powerout = false;
 has_front_door_key = false;
 global.front_door_unlocked = false;
 
-has_premium_fish = false;
+has_premium_fish = false; // $10
 global.has_red_key = false;
 global.has_blue_key = false;
 global.has_green_key = false;
@@ -50,3 +50,26 @@ is_cloaking = false;
 global.found_cat = true;
 exit_percent = 120;
 global.cat_location = 0;
+
+has_painting = false; // $20
+has_silverware = false; // $10
+has_perfume = false; // $20
+has_console = false; // $10
+has_ring = false; // $15
+has_wine = false; // $20
+has_vault = false; // $10
+has_speakers = false; // $15
+has_pinkbear = false; // $5
+has_bluebear = false; // $5
+
+took_coins = false; // %5
+took_painting = false;
+took_silverware = false;
+took_perfume = false;
+took_console = false;
+took_ring = false;
+took_wine = false;
+took_vault = false;
+took_speakers = false;
+took_pinkbear = false
+took_bluebear = false;

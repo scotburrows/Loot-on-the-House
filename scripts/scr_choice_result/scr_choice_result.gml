@@ -63,7 +63,7 @@ function scr_choice_result(result){
 		global.switching_room = true;
 		global.room_entrance = 0;
 		obj_player.next_room = rm_street_start;
-		if (global.awareness > 1000) obj_player.next_room = rm_gameover2;
+		if (global.awareness > 1200) obj_player.next_room = rm_gameover2;
 	}
 	else if (result >= 24 and result <= 37) { // vault steal
 		global.vault_collected[floor((result - 24) / 2)] = true
@@ -94,5 +94,60 @@ function scr_choice_result(result){
 	else if (result == 48) { // buy flashlight
 		global.money -= 25;
 		obj_player.has_flashlight = true;
+	}
+	else if (result == 50) { // steal painting
+		obj_player.took_painting = true;
+		obj_player.has_painting = true;
+		obj_player.future_awareness += 100;
+	}
+	else if (result == 52) { // steal coins
+		obj_player.took_coins = true;
+		global.money += 5;
+		obj_player.future_awareness += 10;
+	}
+	else if (result == 54) { // steal silverware
+		obj_player.took_silverware = true;
+		obj_player.has_silverware = true;
+		obj_player.future_awareness += 50;
+	}
+	else if (result == 56) { // steal perfume
+		obj_player.took_perfume = true;
+		obj_player.has_perfume = true;
+		obj_player.future_awareness += 75;
+	}
+	else if (result == 58) { // steal console
+		obj_player.took_console = true;
+		obj_player.has_console = true;
+		obj_player.future_awareness += 100;
+	}
+	else if (result == 60) { // steal ring
+		obj_player.took_ring = true;
+		obj_player.has_ring = true;
+		obj_player.future_awareness += 75;
+	}
+	else if (result == 62) { // steal wine
+		obj_player.took_wine = true;
+		obj_player.has_wine = true;
+		obj_player.future_awareness += 25;
+	}
+	else if (result == 64) { // steal vault
+		obj_player.took_vault = true;
+		obj_player.has_vault = true;
+		obj_player.future_awareness += 50;
+	}
+	else if (result == 66) { // steal headphones
+		obj_player.took_speaker = true;
+		obj_player.has_speaker = true;
+		obj_player.future_awareness += 25;
+	}
+	else if (result == 68) { // steal pinkbear
+		obj_player.took_pinkbear = true;
+		obj_player.has_pinkbear = true;
+		obj_player.future_awareness += 100;
+	}
+	else if (result == 70) { // steal bluebear
+		obj_player.took_bluebear = true;
+		obj_player.has_bluebear = true;
+		obj_player.future_awareness += 100;
 	}
 }

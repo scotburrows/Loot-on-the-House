@@ -12,18 +12,18 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"dbf57f7d-82ff-42e0-9315-c19e7c99c346","name":"dbf57f7d-82ff-42e0-9315-c19e7c99c346","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"a6bd78e5-aece-4fb2-aaa0-e587fcdb6c2d","name":"a6bd78e5-aece-4fb2-aaa0-e587fcdb6c2d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":128,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"6b389106-4c1d-4542-ad64-cbe722e9a39a","blendMode":0,"displayName":"default","isLocked":false,"name":"6b389106-4c1d-4542-ad64-cbe722e9a39a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"a172802f-1b14-4aa2-8b87-437bd64d21ba","blendMode":0,"displayName":"default","isLocked":false,"name":"a172802f-1b14-4aa2-8b87-437bd64d21ba","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_vault_painting2",
   "nineSlice":null,
-  "origin":0,
+  "origin":9,
   "parent":{
     "name":"Stealables",
     "path":"folders/Sprites/Stealables.yy",
@@ -69,14 +69,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dbf57f7d-82ff-42e0-9315-c19e7c99c346","path":"sprites/spr_vault_painting2/spr_vault_painting2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"44cb3709-e6d6-4450-a40c-2d452c818fa2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a6bd78e5-aece-4fb2-aaa0-e587fcdb6c2d","path":"sprites/spr_vault_painting2/spr_vault_painting2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b0c07b93-4274-4a16-a66f-23f37e15efe2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
-    "yorigin":0,
+    "xorigin":32,
+    "yorigin":96,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
