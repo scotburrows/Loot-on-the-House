@@ -208,6 +208,7 @@
     {"id":{"name":"spr_sewer_ladder","path":"sprites/spr_sewer_ladder/spr_sewer_ladder.yy",},},
     {"id":{"name":"spr_sewer_water","path":"sprites/spr_sewer_water/spr_sewer_water.yy",},},
     {"id":{"name":"spr_sewers_wall","path":"sprites/spr_sewers_wall/spr_sewers_wall.yy",},},
+    {"id":{"name":"spr_shop_cloak","path":"sprites/spr_shop_cloak/spr_shop_cloak.yy",},},
     {"id":{"name":"spr_shop_counter","path":"sprites/spr_shop_counter/spr_shop_counter.yy",},},
     {"id":{"name":"spr_shop_flashlight","path":"sprites/spr_shop_flashlight/spr_shop_flashlight.yy",},},
     {"id":{"name":"spr_shop_ladder","path":"sprites/spr_shop_ladder/spr_shop_ladder.yy",},},

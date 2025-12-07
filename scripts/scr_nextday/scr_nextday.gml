@@ -18,4 +18,6 @@ function scr_nextday(){
 		global.awareness += 100;
 		global.powerout = false;
 	}
+	
+	global.cat_location = irandom(5);
 }

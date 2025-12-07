@@ -47,5 +47,6 @@ global.basement_unlocked = false;
 has_shoes = false;
 has_cloak = false;
 is_cloaking = false;
-global.found_cat = false;
+global.found_cat = true;
 exit_percent = 120;
+global.cat_location = 0;

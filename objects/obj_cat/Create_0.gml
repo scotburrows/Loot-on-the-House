@@ -2,6 +2,10 @@
 // You can write your code in this editor
 image_speed = 0;
 
+if (!global.found_cat or global.cat_location != location) {
+	instance_destroy();
+}
+
 base_direction = irandom(4);
 if (base_direction == 1) {
 	sprite_index = spr_cat_up;
