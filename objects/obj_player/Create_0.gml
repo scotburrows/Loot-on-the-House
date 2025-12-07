@@ -48,3 +48,4 @@ has_shoes = false;
 has_cloak = false;
 is_cloaking = false;
 global.found_cat = false;
+exit_percent = 120;
