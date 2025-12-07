@@ -25,7 +25,7 @@ global.sewer_discovered = false;
 
 has_ladder = false;
 global.ladder_placed = false;
-global.money = 0;
+global.money = 150;
 
 global.darkness = false;
 global.powerout = false;

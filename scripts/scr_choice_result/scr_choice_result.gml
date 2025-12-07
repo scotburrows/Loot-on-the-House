@@ -79,4 +79,20 @@ function scr_choice_result(result){
 		global.room_entrance = 0;
 		obj_player.next_room = rm_basement;
 	}
+	else if (result == 42) { // buy shoes
+		global.money -= 50;
+		obj_player.has_shoes = true;
+	}
+	else if (result == 44) { // buy cloak
+		global.money -= 40;
+		obj_player.has_cloak = true;
+	}
+	else if (result == 46) { // buy ladder
+		global.money -= 15;
+		obj_player.has_ladder = true;
+	}
+	else if (result == 48) { // buy flashlight
+		global.money -= 25;
+		obj_player.has_flashlight = true;
+	}
 }
