@@ -8,7 +8,7 @@ if (room == rm_basement) {
 		obj_player.can_move = false;
 	}
 }
-else if (room != rm_shop and true) {
+else if (room != rm_shop and room != rm_street_start and room != rm_street_start and room != rm_sewers and true) {
 	if (rand < 0.1) {
 		game_over = true;
 		obj_player.can_move = false;
