@@ -125,10 +125,15 @@
     {"name":"inst_488DAB4B","path":"rooms/rm_backyard/rm_backyard.yy",},
     {"name":"inst_20CF033B","path":"rooms/rm_backyard/rm_backyard.yy",},
     {"name":"inst_31CF8A79","path":"rooms/rm_backyard/rm_backyard.yy",},
+    {"name":"inst_6DD42386","path":"rooms/rm_backyard/rm_backyard.yy",},
   ],
   "isDnd":false,
   "layers":[
-    {"$GMRInstanceLayer":"","%Name":"Instances_1","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRInstanceLayer":"","%Name":"Instances_1","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v1","%Name":"inst_6DD42386","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6DD42386","objectId":{"name":"obj_securitycam","path":"objects/obj_securitycam/obj_securitycam.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_securitycam","path":"objects/obj_securitycam/obj_securitycam.yy",},"propertyId":{"name":"starting_angle","path":"objects/obj_securitycam/obj_securitycam.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"270",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":180.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":544.0,},
+      ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_2","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_60F61B69_1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_60F61B69_1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_fencelower","path":"sprites/spr_fencelower/spr_fencelower.yy",},"x":-32.0,"y":64.0,},
         {"$GMRSpriteGraphic":"","%Name":"graphic_2DABDE2_1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_2DABDE2_1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_fencelower","path":"sprites/spr_fencelower/spr_fencelower.yy",},"x":-32.0,"y":128.0,},

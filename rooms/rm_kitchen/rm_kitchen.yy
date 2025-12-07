@@ -83,10 +83,15 @@
     {"name":"inst_7AF4EAB7","path":"rooms/rm_kitchen/rm_kitchen.yy",},
     {"name":"inst_833E59B","path":"rooms/rm_kitchen/rm_kitchen.yy",},
     {"name":"inst_22882EE3","path":"rooms/rm_kitchen/rm_kitchen.yy",},
+    {"name":"inst_6943FF0","path":"rooms/rm_kitchen/rm_kitchen.yy",},
   ],
   "isDnd":false,
   "layers":[
-    {"$GMRInstanceLayer":"","%Name":"Instances_1","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRInstanceLayer":"","%Name":"Instances_1","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v1","%Name":"inst_6943FF0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6943FF0","objectId":{"name":"obj_securitycam","path":"objects/obj_securitycam/obj_securitycam.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_securitycam","path":"objects/obj_securitycam/obj_securitycam.yy",},"propertyId":{"name":"threshold","path":"objects/obj_securitycam/obj_securitycam.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"350",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":64.0,},
+      ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_38759149","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_38759149","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_bricks","path":"sprites/spr_bricks/spr_bricks.yy",},"x":896.0,"y":128.0,},
         {"$GMRSpriteGraphic":"","%Name":"graphic_7B24D0D7","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_7B24D0D7","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_bricks","path":"sprites/spr_bricks/spr_bricks.yy",},"x":832.0,"y":128.0,},

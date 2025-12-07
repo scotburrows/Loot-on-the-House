@@ -209,6 +209,7 @@
     {"name":"inst_1558DF15","path":"rooms/rm_frontyard/rm_frontyard.yy",},
     {"name":"inst_78030FB2","path":"rooms/rm_frontyard/rm_frontyard.yy",},
     {"name":"inst_188A883A","path":"rooms/rm_frontyard/rm_frontyard.yy",},
+    {"name":"inst_7225C7B1","path":"rooms/rm_frontyard/rm_frontyard.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -557,6 +558,7 @@
         {"$GMRInstance":"v1","%Name":"inst_188A883A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_188A883A","objectId":{"name":"obj_entrance3","path":"objects/obj_entrance3/obj_entrance3.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_entrance0","path":"objects/obj_entrance0/obj_entrance0.yy",},"propertyId":{"name":"entrance_no","path":"objects/obj_entrance0/obj_entrance0.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1552.0,"y":1184.0,},
+        {"$GMRInstance":"v1","%Name":"inst_7225C7B1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7225C7B1","objectId":{"name":"obj_securitycam","path":"objects/obj_securitycam/obj_securitycam.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1088.0,"y":1024.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_6E74EB52","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_6E74EB52","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_street_grass","path":"sprites/spr_street_grass/spr_street_grass.yy",},"x":224.0,"y":0.0,},
