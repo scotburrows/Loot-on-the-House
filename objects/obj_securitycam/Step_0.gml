@@ -37,6 +37,7 @@ if (camera_awareness >= 40 && instance_exists(obj_timer) && !obj_timer.been_spot
 	obj_timer.been_spotted = true;
 	moving = false;
 	color = c_red;
+	audio_play_sound(alarm, 2, false);
 	alarm_set(0, 120);
 	instance_create_layer(0, 0, "Instances", obj_text_popup, {text: "You've been spotted!", color: c_red});
 }
