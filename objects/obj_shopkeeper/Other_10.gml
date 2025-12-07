@@ -43,6 +43,10 @@ if (!instance_exists(obj_dialogue)) {
 			money += 5;
 			obj_player.has_bluebear = false;
 		}
+		if (obj_player.has_premium_fish) {
+			money += 10;
+			obj_player.has_premium_fish = false;
+		}
 		global.money += money;
 		instance_create_layer(0, 0, "Instances_1", obj_dialogue, {num_lines: 3, line1: "You've brought some stuff to me, eh?", line2: "Let's see here...", line3: "I'll give ya $" + string(money) + " for all this.", line4: "Nice doin' business with ya."});
 	}
