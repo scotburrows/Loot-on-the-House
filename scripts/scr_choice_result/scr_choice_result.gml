@@ -33,6 +33,8 @@ function scr_choice_result(result){
 		global.room_entrance = 0;
 		obj_player.next_room = rm_foyer;
 		global.front_door_unlocked = true;
+		audio_stop_sound(closing_door);
+		audio_play_sound(closing_door, 2, false);
 	}
 	else if (result == 10) { // unlock front door
 		global.switching_room = true;
@@ -79,23 +81,29 @@ function scr_choice_result(result){
 		global.basement_unlocked = true;
 		global.switching_room = true;
 		global.room_entrance = 0;
+	audio_stop_sound(closing_door);
+	audio_play_sound(closing_door, 2, false);
 		obj_player.next_room = rm_basement;
 	}
 	else if (result == 42) { // buy shoes
 		global.money -= 50;
 		obj_player.has_shoes = true;
+		audio_play_sound(coinsplash, 2, false);
 	}
 	else if (result == 44) { // buy cloak
 		global.money -= 40;
 		obj_player.has_cloak = true;
+		audio_play_sound(coinsplash, 2, false);
 	}
 	else if (result == 46) { // buy ladder
 		global.money -= 15;
 		obj_player.has_ladder = true;
+		audio_play_sound(coinsplash, 2, false);
 	}
 	else if (result == 48) { // buy flashlight
 		global.money -= 25;
 		obj_player.has_flashlight = true;
+		audio_play_sound(coinsplash, 2, false);
 	}
 	else if (result == 50) { // steal painting
 		obj_player.took_painting = true;

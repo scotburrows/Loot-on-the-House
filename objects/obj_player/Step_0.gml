@@ -74,3 +74,26 @@ if (global.switching_room) {
 else if (overlay_alpha > 0) {
 	overlay_alpha -= 0.03;
 }
+
+if (room == rm_street_start or room == rm_street_end) {
+	audio_stop_sound(Chilled_Tune);
+	audio_stop_sound(snd_normal);
+	audio_stop_sound(snd_shop);
+}
+else if ((room == rm_shop)) {
+	audio_stop_sound(Chilled_Tune);
+	audio_stop_sound(snd_normal);
+	audio_stop_sound(snd_blackout);
+	//audio_play_sound(snd_shop, 1, true);
+}
+else if (global.darkness) {
+	audio_stop_sound(snd_normal);
+	audio_stop_sound(snd_shop);
+	if (!audio_is_playing(snd_blackout)) audio_play_sound(snd_blackout, 1, true);
+}
+else if (!audio_is_playing(snd_normal)) {
+	audio_stop_sound(Chilled_Tune);
+	audio_stop_sound(snd_shop);
+	audio_stop_sound(snd_blackout);
+	audio_play_sound(snd_normal, 1, true);
+}

@@ -1,7 +1,7 @@
 /// @description Object interaction
 // You can write your code in this editor
 if (!instance_exists(obj_dialogue)) {
-	if (obj_player.has_painting or obj_player.has_silverware or obj_player.has_perfume or obj_player.has_console or obj_player.has_ring or obj_player.has_wine or obj_player.has_vault or obj_player.has_speakers or obj_player.has_pinkbear or obj_player.has_bluebear) {
+	if (obj_player.has_painting or obj_player.has_silverware or obj_player.has_perfume or obj_player.has_console or obj_player.has_ring or obj_player.has_wine or obj_player.has_vault or obj_player.has_speakers or obj_player.has_pinkbear or obj_player.has_bluebear or obj_player.has_premium_fish) {
 		var money = 0;
 		if (obj_player.has_painting) {
 			money += 20;
