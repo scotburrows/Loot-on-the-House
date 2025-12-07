@@ -27,7 +27,7 @@ else {
 // Player check
 if (instance_exists(obj_player) and !global.powerout) {
 	if (!obj_player.is_cloaking and rectangle_in_triangle(obj_player.x - 24, obj_player.y - 32, obj_player.x + 24, obj_player.y + 32, x, y, x1, y1, x2, y2)) {
-		global.awareness += 0.8;
+		obj_player.future_awareness += 0.8;
 		camera_awareness += 0.8;
 		show_debug_message(global.awareness);
 	}

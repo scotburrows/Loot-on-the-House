@@ -31,8 +31,8 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"threshold","filters":[],"listItems":[],"multiselect":false,"name":"threshold","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"200","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"starting_angle","filters":[],"listItems":[],"multiselect":false,"name":"starting_angle","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"90","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"distance","filters":[],"listItems":[],"multiselect":false,"name":"distance","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"30","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"radius","filters":[],"listItems":[],"multiselect":false,"name":"radius","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"500","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"distance","filters":[],"listItems":[],"multiselect":false,"name":"distance","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"27","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"radius","filters":[],"listItems":[],"multiselect":false,"name":"radius","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"400","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

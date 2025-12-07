@@ -136,8 +136,8 @@ function scr_choice_result(result){
 		obj_player.future_awareness += 50;
 	}
 	else if (result == 66) { // steal headphones
-		obj_player.took_speaker = true;
-		obj_player.has_speaker = true;
+		obj_player.took_speakers = true;
+		obj_player.has_speakers = true;
 		obj_player.future_awareness += 25;
 	}
 	else if (result == 68) { // steal pinkbear
