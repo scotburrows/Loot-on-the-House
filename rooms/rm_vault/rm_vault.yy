@@ -61,6 +61,7 @@
     {"name":"inst_3F26DDE0","path":"rooms/rm_vault/rm_vault.yy",},
     {"name":"inst_41FF2DB9","path":"rooms/rm_vault/rm_vault.yy",},
     {"name":"inst_72BB0FBA","path":"rooms/rm_vault/rm_vault.yy",},
+    {"name":"inst_33A58AAB","path":"rooms/rm_vault/rm_vault.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -212,6 +213,7 @@
         {"$GMRInstance":"v1","%Name":"inst_72BB0FBA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_72BB0FBA","objectId":{"name":"obj_vault_collectible","path":"objects/obj_vault_collectible/obj_vault_collectible.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_vault_collectible","path":"objects/obj_vault_collectible/obj_vault_collectible.yy",},"propertyId":{"name":"vault_num","path":"objects/obj_vault_collectible/obj_vault_collectible.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"6",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":800.0,"y":476.0,},
+        {"$GMRInstance":"v1","%Name":"inst_33A58AAB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_33A58AAB","objectId":{"name":"obj_entrance0","path":"objects/obj_entrance0/obj_entrance0.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":928.0,"y":352.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4281545523,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_kitchen_tile","path":"sprites/spr_kitchen_tile/spr_kitchen_tile.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
