@@ -13,6 +13,7 @@ if (!instance_exists(obj_dialogue)) {
 		if (has_speakers) money += 15;
 		if (has_pinkbear) money += 5;
 		if (has_bluebear) money += 5;
+		instance_create_layer(0, 0, "Instances_1", obj_dialogue, {num_lines: 3, line1: "You've brought some stuff to me, eh?", line2: "Let's see here...", line3: "I'll give ya $" + string(money) + " for all this.", line4: "Nice doin' business with ya."});
 	}
-	instance_create_layer(0, 0, "Instances_1", obj_dialogue, {num_lines: num_lines, line1: line1, line2: line2, line3: line3, line4: line4, line5: line5, choice: choice, choice1: choice1, choice2: choice2, result: result, has_extra_line: has_extra_line});
+	else instance_create_layer(0, 0, "Instances_1", obj_dialogue, {num_lines: 1, line1: "Good to see ya around."});
 }
