@@ -57,12 +57,14 @@ function scr_choice_result(result){
 		global.switching_room = true;
 		global.room_entrance = 0;
 		obj_player.next_room = rm_street_end;
+		instance_destroy(obj_timer);
 		scr_nextday();
 	}
 	else if (result == 22) { // go back after shop
 		global.switching_room = true;
 		global.room_entrance = 0;
 		obj_player.next_room = rm_street_start;
+		instance_create_layer(0, 0, "Instances_1", obj_timer);
 		if (global.awareness > 1200) obj_player.next_room = rm_gameover2;
 	}
 	else if (result >= 24 and result <= 37) { // vault steal
